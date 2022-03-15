@@ -163,15 +163,15 @@ h3 {
 }
 
 .bg-img-1 {
-  background-image: url(../img/slider/slider-img-1.jpg);
+  background-image: url('../img/slider/slider-img-1.jpg');
 }
 
 .bg-img-2 {
-  background-image: url(../img/background-img/bg-img-2.jpg);
+  background-image: url('../img/background-img/bg-img-2.jpg');
 }
 
 .cta-bg-1 {
-  background-image: url(../img/background-img/bg-img-3.jpg);
+  background-image: url('../img/background-img/bg-img-3.jpg');
 }
 
 .overlay {
@@ -886,11 +886,11 @@ h3 {
 }
 
 .slider_bg_1 {
-  background-image: url(../img/banner/example-pic.jpg);
+  background-image: url('../img/banner/example-pic.jpg');
 }
 
 .slider_bg_2 {
-  background-image: url(../img/banner/example-pic2.jpg);
+  background-image: url('../img/banner/example-pic2.jpg');
 }
 
 .slider_area .single_slider {
@@ -1034,7 +1034,7 @@ h3 {
 }
 
 .about_bg_1 {
-  background-image: url(../img/banner/about_banner.png);
+  background-image: url('../img/banner/about_banner.png');
 }
 
 .about_info_area {
@@ -1837,15 +1837,15 @@ h3 {
 }
 
 .breadcam_bg {
-  background-image: url("../img/banner/bradcam.png");
+  background-image: url('../img/banner/bradcam.png');
 }
 
 .breadcam_bg_1 {
-  background-image: url("../img/banner/bradcam2.png");
+  background-image: url('../img/banner/bradcam2.png');
 }
 
 .breadcam_bg_2 {
-  background-image: url("../img/banner/bradcam3.png");
+  background-image: url('../img/banner/bradcam3.png');
 }
 
 .bradcam_area {
