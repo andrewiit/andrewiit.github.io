@@ -1,0 +1,83 @@
+.benefits {
+    padding:100px 0 40px 0;
+
+    &__body{
+        display: flex;
+        align-items: stretch;
+    }
+
+    &__card:not(:nth-child(3)){
+        display: grid;
+        grid-template-rows: auto auto 1fr auto ;
+        padding-top:36px;
+        padding-bottom: 40px;
+        // align-items: center;
+        justify-items: center;
+        margin-right:2px;
+        max-width: 25%;
+        background-color: $light;
+        text-align: center;
+        transition: .3s ease-in-out;
+
+        &:hover{
+            transform: translateY(-25px);
+        }
+    }
+
+
+
+    &__description{
+        max-width: 75%;
+        font-size: 16px;
+        line-height: 150%;
+        color:$dark-txt;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__title{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 120%;
+        color:$dark-grey;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__link{
+        font-size: 14px;
+        color:$btn-accent;
+        font-weight: 500;
+    }
+
+    &__title--accent, &__description--accent , &__link--accent {
+        color:$light;
+        max-width: 60%;
+        text-align: left;
+    }
+
+
+    &__card--accent {
+        position: relative;
+        max-width: 25%;
+        padding-left:38px;
+        background: url('../img/benefits/bg-phone.png') no-repeat right bottom, $btn-accent;
+       
+        color:$light;
+    
+        &::before{
+            position: absolute;
+            top:0;
+            left:0;
+            transform: translateY(-100%);
+            content: '';
+            width: 100%;
+            height: 25px;
+            background-color: $btn-accent;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+        }
+    }
+   
+}
+
